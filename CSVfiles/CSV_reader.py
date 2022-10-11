@@ -17,7 +17,9 @@ def animal_search(input):
             name=names[count][0]
             name=Pets(names[count][0], names[count][1], names[count][2])
             name.print_name()
+        f.close()
     except:
         print(f"Sorry, we don't have any {input} here")
+
 input=input("Enter animal here>>>")
 animal_search(input)
