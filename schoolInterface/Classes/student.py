@@ -18,3 +18,22 @@ class Student(Person):
                 list_of_students.append(name)
         # print(list_of_students)
         return list_of_students
+
+    @staticmethod  
+    def create_a_student():
+        temp_student={}
+        student_info =input("Please enter student name>>>")
+        temp_student['name']=student_info
+        student_info =input("Please enter student age>>>")
+        temp_student['age']=student_info
+        student_info =input("Please enter student student_id>>>")
+        temp_student['school_id']=student_info
+        student_info =input("Please enter student role>>>")
+        temp_student['role']=student_info
+        student_info =input("Please enter student password>>>")
+        temp_student['password']=student_info
+        # print(temp_student)
+        x=Student(**temp_student)
+        # print(x)
+        return x 
+

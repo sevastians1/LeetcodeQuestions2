@@ -129,12 +129,12 @@ class BoggleBoard:
 
 
 
-print()
+
 
 
 instance=BoggleBoard()
 instance.shake()
-# instance.grid_of_grids=list=[['R', 'O', 'O', 'D'], ['D', 'T', 'W', 'O'], ['F', 'I', 'W', 'U'], ['X', 'J', 'Z', 'Y']]
+instance.grid_of_grids=list=[['R', 'O', 'O', 'D'], ['D', 'T', 'W', 'O'], ['F', 'I', 'W', 'U'], ['X', 'J', 'Z', 'Y']]
 # print(instance.grid_of_grids)
 # print(instance.check_if_valid_location(1, 4))
 print(instance.include_word("WORD"))
