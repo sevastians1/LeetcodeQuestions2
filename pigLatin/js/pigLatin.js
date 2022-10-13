@@ -1,0 +1,2 @@
+exports.translate = function(word) {
+};
